@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.dogResults {
+    width: 70vw;
+    margin: 0 auto;
+    display:flex; 
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+input {
+    font-size: 2em;
+    line-height: 2em;
+    width: 8em;
+    border: 2px steelblue solid;
+    text-align: center;
+}
+
+.dogBreedButton {
+    width: 6em;
+    line-height: 2em;
+    background-color: aqua;
+}
+
+p {
+    font-size: 1em;
+}
+
+h1, h2, p, form, blockquote {
+    text-align: center;
+}
+
+blockquote {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.dogResult {
+    margin-top: 3vw;
+    width: 50vw;
+    text-align: center;
+}
+
+.dogName {
+    line-height: 1.5em;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.dogImage {
+    max-width: 50vw;
+    max-height: 10vw;
+    margin: 1vw 2vw;
+}

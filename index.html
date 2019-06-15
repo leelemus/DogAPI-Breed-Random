@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="App that pulls a random image from a specific breed inputted from the DOGAPI"/>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>DogAPI 1 to 50 Random Image Web App</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <link rel="stylesheet" href="./main.css" type="text/css" />
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <section>
+            <h1>Dog Breed Random Image Generator</h1>
+            <h2>Type in the breed of dog you want to see!</h2>
+            <p>Make sure to type it in correctly - otherwise no image can be generated.</p>
+            <form class="js-typeOfBreed">
+                <input type="text" class="js-dogBreed" />
+                <input type="submit" class="js-dogBreedButton dogBreedButton" />
+            </form>
+        </section>
+        <section class="dogResult js-dogResult">
+        </section>
+    </body>
+</html>
