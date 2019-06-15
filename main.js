@@ -22,8 +22,8 @@ function displayResult(responseJson) {
         $('.js-dogResult').append(
             `<div class="dogResult">
                 <h2 class="dogName">Oh no!</h2> 
-                <p class="dogName">Something went wrong. Pleast try again!</p> 
-                <p class="dogName"> Pro tip: searching with a more generic term will more likely yield results (ex: "Terrier" vs "Yorkshire Terrier").</p>
+                <p class="dogName">Something went wrong. Please try again!</p> 
+                <p class="dogName"> Pro tip: searching with a more generic term will more likely yield with a result (ex: "Terrier" vs "Yorkshire Terrier").</p>
             </div>`
         );
     }
